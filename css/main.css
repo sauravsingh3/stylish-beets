@@ -22,3 +22,51 @@ a, nav li {
   font-size: 1.125rem;
   text-decoration: none;
 }
+
+a:hover {
+  color: #222;
+  text-decoration: underline;
+}
+
+main {
+  font-family: "PT Serif", sans-serif;
+  font-weight: normal;
+}
+
+img {
+  width: 100%;
+}
+
+figcaption {
+  font-style: italic;
+  text-align: center;
+}
+
+blockquote {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.p-1 {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+cite {
+  font-size: .8rem;
+}
+
+main > ol li {
+  list-style-type: lower-greek;
+}
+
+.serving {
+  font-style: italic;
+  line-height: 1.2;
+}
+
+.dl-2 dt {
+  font-weight: bold;
+  line-height: 1.2;
+}
